@@ -1,0 +1,17 @@
+Software Features
+=================
+
+=Event Reporting=
+The Theater Ticket System will support the capability for Customer Service Representatives to run various types of reporting metrics about ticket sales. This will allow them to determine answers to questions such as "What percentage of seats were sold for Event X?".
+
+=Captures All Patron Information=
+The Theater Ticket System will store customer information. This will allow a Customer Service Representative to more easily assist repeat Patrons without requiring them to provide all required information every time they wish to purchase tickets.
+
+=Multiple Venue Support=
+The Theater Ticket System will support multiple types of Venues where Events will take place. Different Venues have different physical locations and seating capabilities. The system will use this information to properly allow seat reservation by the Customer Service Agent for the Patron.
+
+=Multiple Event Support=
+The Theater Ticket System will support multiple Events. Each event occurs at a particular Venue, date, and time. The system will support querying for events so the Customer Service Agent can easily place reservations for the Patrons.
+
+=Event Season Support=
+The Theater Ticket System will support multiple related Events in what is called an Event Season. Grouping a series of Events into Seasons allows the Customer Service Agent to more easily reserve tickets on behalf of a Patron for all related Events.
