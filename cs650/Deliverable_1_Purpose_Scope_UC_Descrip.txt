@@ -1,0 +1,13 @@
+1.1 Purpose of This Document
+
+The purpose of this document is to detail the requirement specifications for the Theater Ticket System. This document is intended to outline the requirements of the system as a whole, and display the desired functionality. The document itself is composed of two parts which are further divided into specific areas. Part one will outline the system requirements and estimations. Part two will outline the planned process operations, collaboration, and quality assurance strategies.
+
+
+2.1 Scope
+
+The Theater Ticket System, TTS, manages the different tasks involved with handling ticket sales for an event at a specified venue.  A customer service agent, CSA, interacts with the TTS to handle the ticket sales, ticket reservation, or ticket exchanges for a patron either by telephone, in person prior to an event, or at the event’s venue.  The TTS will also allowing the CSA to sell patron’s season tickets, or to track patron information for customized ticket purchases. The TTS will also track ticket purchase information, reserved seating, custom patron data, and season ticket status in a remote database. The database should be available for access at the customer’s office site, and any event venue ticket locations.
+
+
+4.1.1.1 Use Case Description
+
+Description: The Reserve Ticket Use Case describes the process which will allow a CSA to reserve a ticket for a patron.
