@@ -326,9 +326,9 @@ Payment System</panel_attributes>
   <element>
     <type>com.umlet.element.custom.Systemborder</type>
     <coordinates>
-      <x>130</x>
+      <x>160</x>
       <y>30</y>
-      <w>360</w>
+      <w>310</w>
       <h>370</h>
     </coordinates>
     <panel_attributes>Theater
