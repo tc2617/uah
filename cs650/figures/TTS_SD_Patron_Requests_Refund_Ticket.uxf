@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.SequenceDiagram</type>
+    <coordinates>
+      <x>320</x>
+      <y>110</y>
+      <w>770</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>_:Customer Service Agent~id1_|_:Theater Ticket System~id2_|_:Payment Gateway~id3_
+id1-&gt;&gt;id2:id1,id2:Request Event Booking
+id2-&gt;&gt;id2:id2:Search Event Bookings
+id2-&gt;&gt;id1:id2,id1:Return Booking Results
+id1-&gt;&gt;id1:id1:Select Booking
+id1-&gt;&gt;id2:id1,id2:Send Booking
+id2-&gt;&gt;id2:id2:Verify Booking
+id2-&gt;&gt;id2:id2:Return Seat to Unlocked State
+id2-&gt;&gt;id3:id2,id3:Send Refund Request
+id3-&gt;&gt;id3:id3:Process Refund Request
+id3-&gt;&gt;id2:id3,id2:Return Refund Confirmation
+id2-&gt;&gt;id1:id2,id1:Return Refund Confirmation</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
