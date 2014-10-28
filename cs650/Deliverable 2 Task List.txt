@@ -1,0 +1,29 @@
+2014/10/27
+----------
+[ ] Need to add a short paragraph to the introduction section.
+[ ] Revision needs to be bumped to something new
+[ ] Date needs to be modified for the deliverable date
+[ ] Revision history needs to be updated
+[ ] Dr. Delugach commented that our function point analysis was low.
+    I'm not sure if this is because he didn't realize we only did
+	the estimate for the single use case. It probably would be good
+	to indicate as such or we need to re-evaluate function points
+	at a project-level scope now that we have a better idea of the
+	inputs and outputs of the software.
+[ ] Teem meetings need to be added, super short summary provided here:
+
+        2014/10/14: Final review of the initial use case.
+        2014/10/15: Delegated remaining use case out to pairs.
+        2014/10/21: Meeting to check use case status.
+        
+        Any pair meetings:
+        2014/10/18: Angela and Anthony worked on their use cases
+
+[ ] Project schedule needs to be updated
+[ ] Add additional terms in glossary
+        - Booked Seat
+        - Locked Seat
+[ ] Integrate use cases into document.
+[ ] Move function point analysis into part 2 of the document.
+[ ] Add preliminary QA audit somewhere to the document (part 2?)
+[ ] Add the 'next steps' section to part 2 of the document.
