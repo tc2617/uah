@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>610</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>title: Purchase Ticket - Credit Exception 1
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
+id1-&gt;&gt;id1:id1,self:Select credit payment type
+id1-&gt;&gt;id2:id1,id2:Submit patron's payment
+id2-&gt;&gt;id2:id2,self:Validate payment is sufficient
+id2-&gt;&gt;id1:id2,id1:Payment insufficient
+id1-&gt;&gt;id1:id1,self:Exit</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
