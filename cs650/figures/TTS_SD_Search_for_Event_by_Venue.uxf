@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.SequenceDiagram</type>
+    <coordinates>
+      <x>320</x>
+      <y>110</y>
+      <w>680</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>_:Customer Service Agent~id1_|_:Theater Ticket System~id2_
+id1-&gt;&gt;id2:id1,id2:Request Venue
+id2-&gt;&gt;id2:id2,self:Search Venues
+id2-&gt;&gt;id1:id2,id1:Return Venue Results
+id1-&gt;&gt;id1:id1:Select Venue
+id1-&gt;&gt;id2:id1,id2:Send Venue
+id2-&gt;&gt;id2:id2,self:Search Events
+id2-&gt;&gt;id1:id2,id1:Return Event Results for Venue Sent
+id1-&gt;&gt;id1:id1:Input Date Range
+id1-&gt;&gt;id2:id1,id2:Send Date Range
+id2-&gt;&gt;id2:id2,self:Filter Events for Selected Venue by Date Range
+id2-&gt;&gt;id1:id2,id1:Return Filtered Event Results</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
