@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="13.0">
+<diagram program="umlet" version="12.2">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
@@ -7,9 +7,10 @@
       <x>320</x>
       <y>110</y>
       <w>800</w>
-      <h>420</h>
+      <h>440</h>
     </coordinates>
-    <panel_attributes>_:Customer Service Agent~id1_|_:Theater Ticket System~id2_|_:Payment Gateway~id3_
+    <panel_attributes>title: Refund All Tickets
+_:Customer Service Agent~id1_|_:Theater Ticket System~id2_|_:Payment Gateway~id3_
 id1-&gt;&gt;id2:id1,id2:Request Event Booking
 id2-&gt;&gt;id2:id2:Search Event Bookings
 id2-&gt;&gt;id1:id2,id1:Return Booking Results
