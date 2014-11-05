@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.SequenceDiagram</type>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>580</w>
+      <h>500</h>
+    </coordinates>
+    <panel_attributes>title: Exchange Ticket
+_Customer Service Agent~id1_|_Theater Ticket System~id2_
+id1-&gt;&gt;id2:id1,id2:Search for reservation by ID
+id2-&gt;id2:id2,self:Lookup reservation by ID
+id2-&gt;&gt;id1:id2,id1:Return reservation
+id1-&gt;&gt;id2:id1,id2:Search for event seats
+id2-&gt;id2:id2,self:Lookup seats for the event
+id2-&gt;&gt;id1:id2,id1:Return event's seats
+id1-&gt;id1:id1,self:Select a seat
+id1-&gt;&gt;id2:id1,id2:Submit seat to exchange
+id2-&gt;id2:id2,self:Verify seat is not locked
+id2-&gt;id2:id2,self:Lock selected seat
+id2-&gt;id2:id2,self:Associate seat with patron
+id2-&gt;id2:id2,self:Unlock previously reserved seat
+id2-&gt;&gt;id1:id2,id1:Return booking confirmation</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
