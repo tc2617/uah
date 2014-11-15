@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="12.2">
+<diagram program="umlet" version="13.0">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
     <coordinates>
       <x>10</x>
       <y>0</y>
-      <w>550</w>
+      <w>600</w>
       <h>620</h>
     </coordinates>
     <panel_attributes>title: Reserve Event Ticket
-_:Customer Service Agent~id1_|_:Theater Ticket System~id2_
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
 id1-&gt;&gt;id2:id1,id2:Request Event Seats
 id2-&gt;&gt;id2:id2,self:Search Events
 id2-&gt;&gt;id2:id2,self:Search Seats

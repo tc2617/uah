@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="12.2">
+<diagram program="umlet" version="13.0">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
     <coordinates>
       <x>20</x>
       <y>20</y>
-      <w>510</w>
+      <w>560</w>
       <h>350</h>
     </coordinates>
     <panel_attributes>title: Pickup Ticket
-_Customer Service Agent~id1_|_Theater Ticket System~id2_
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
 id1-&gt;&gt;id2:id1,id2:Search for patron's booking
 id2-&gt;id2:id2,self:Look up the booking
 id2-&gt;&gt;id1:id2,id1:Return available tickets

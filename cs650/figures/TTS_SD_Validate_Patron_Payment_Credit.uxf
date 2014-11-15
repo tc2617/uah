@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="12.2">
+<diagram program="umlet" version="13.0">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
@@ -10,7 +10,7 @@
       <h>290</h>
     </coordinates>
     <panel_attributes>title: Validate Patron Payment
-_Theater Ticket System:TTS~id2_|_Payment System~id3_
+_Theater Ticket System:TTS~id2_|_Payment System:PS~id3_
 id2-&gt;&gt;id3:id2,id3:Submit Patron's information
 id3-&gt;&gt;id3:id3,self:Validates payment information
 id3-&gt;&gt;id2:id3,id2:Return validate success
