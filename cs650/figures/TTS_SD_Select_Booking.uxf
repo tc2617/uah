@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.SequenceDiagram</type>
+    <coordinates>
+      <x>0</x>
+      <y>30</y>
+      <w>590</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>title: Select Booking
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
+id1-&gt;&gt;id2:id1,id2:Search by patron
+id2-&gt;id2:id2,self:Query bookings by patron
+id2-&gt;&gt;id1:id2,id1:Return found bookings
+id1-&gt;id1:id1,self:Select a booking</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
