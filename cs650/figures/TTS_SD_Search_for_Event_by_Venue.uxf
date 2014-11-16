@@ -4,12 +4,13 @@
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
     <coordinates>
-      <x>320</x>
-      <y>110</y>
-      <w>680</w>
-      <h>420</h>
+      <x>10</x>
+      <y>10</y>
+      <w>720</w>
+      <h>440</h>
     </coordinates>
-    <panel_attributes>_:Customer Service Agent~id1_|_:Theater Ticket System~id2_
+    <panel_attributes>title: Search For Event By Venue
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
 id1-&gt;&gt;id2:id1,id2:Request Venue
 id2-&gt;&gt;id2:id2,self:Search Venues
 id2-&gt;&gt;id1:id2,id1:Return Venue Results

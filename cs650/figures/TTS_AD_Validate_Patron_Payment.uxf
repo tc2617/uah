@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>230</x>
+      <y>80</y>
+      <w>730</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>valign=top</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>110</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>270</x>
+      <y>110</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>340</x>
+      <y>100</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>CSA inputs patron's
+payment information</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>100</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>CSA submits patron's
+payment information</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>110</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>530</x>
+      <y>170</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>TTS submits payment information
+to payment system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>130</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>270</x>
+      <y>230</y>
+      <w>660</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>THIS DIAGRAM IS STILL UNDER CONSTRUCTION
+(Not sure why submitting payment information should be a separate action than
+submitting the charge amount, which is how it is phrased in the use-case.</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

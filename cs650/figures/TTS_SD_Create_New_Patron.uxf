@@ -6,16 +6,16 @@
     <coordinates>
       <x>20</x>
       <y>20</y>
-      <w>620</w>
+      <w>590</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>title: Select Unpaid Reservation Alternate Path 2
+    <panel_attributes>title: Create New Patron
 _Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
-id1-&gt;&gt;id2:id1,id2:Search for a patron's reservation
-id2-&gt;id2:id2,self:Search records for patron
-id2-&gt;id2:id2,self:Search for patron's reservations
-id2-&gt;&gt;id1:id1,id2:Unpaid reservation not found
-id1-&gt;&gt;id1:id1,self:Return to search for reservation</panel_attributes>
+id1-&gt;id1:id1:Enter Patron's Information
+id1-&gt;&gt;id2:id1,id2:Submit patron information
+id2-&gt;&gt;id2:id2,self:Verify patron doesn't exist
+id2-&gt;&gt;id2:id2,self:Create new record
+id2-&gt;&gt;id1:id2,id1:Return record created</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
