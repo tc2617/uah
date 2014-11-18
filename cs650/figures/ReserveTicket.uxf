@@ -2,194 +2,57 @@
 <diagram program="umlet" version="13.0">
   <zoom_level>9</zoom_level>
   <element>
-    <id>UMLObject</id>
-    <coordinates>
-      <x>360</x>
-      <y>36</y>
-      <w>90</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>CSA Query for 
-specific event</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLObject</id>
-    <coordinates>
-      <x>486</x>
-      <y>234</y>
-      <w>126</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>TTS checks for seat
-availability</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>387</x>
-      <y>180</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>108</y>
-      <w>27</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;80.0;10.0;10.0;10.0;20.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>351</x>
+      <x>549</x>
       <y>126</y>
-      <w>171</w>
+      <w>117</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[TTS finds event]</panel_attributes>
+    <additional_attributes>60.0;50.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>171</y>
+      <w>108</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>TTS finds event
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-
+[No]</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>279</x>
-      <y>198</y>
-      <w>135</w>
-      <h>81</h>
+      <x>612</x>
+      <y>171</y>
+      <w>108</w>
+      <h>36</h>
     </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;70.0;130.0;10.0</additional_attributes>
+    <panel_attributes>lt=&lt;-
+[Yes]</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>531</x>
-      <y>396</y>
-      <w>72</w>
+      <x>747</x>
+      <y>207</y>
+      <w>27</w>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>324</x>
-      <y>216</y>
-      <w>171</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>No
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>495</x>
-      <y>324</y>
-      <w>117</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>TTS finds available seats
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>405</x>
-      <y>198</y>
-      <w>90</w>
-      <h>81</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>80.0;70.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>441</x>
-      <y>207</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>Yes
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>513</x>
-      <y>378</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
       <x>405</x>
-      <y>387</y>
-      <w>126</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>468</x>
-      <y>405</y>
-      <w>171</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>No
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>558</x>
-      <y>396</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>Yes
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>522</x>
-      <y>297</y>
-      <w>27</w>
-      <h>99</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>225</x>
-      <y>63</y>
+      <y>108</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -199,8 +62,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>234</x>
-      <y>63</y>
+      <x>414</x>
+      <y>108</y>
       <w>144</w>
       <h>27</h>
     </coordinates>
@@ -208,169 +71,161 @@ style=wordwrap</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLObject</id>
+    <id>Relation</id>
     <coordinates>
-      <x>585</x>
-      <y>423</y>
-      <w>90</w>
-      <h>36</h>
+      <x>702</x>
+      <y>342</y>
+      <w>117</w>
+      <h>90</h>
     </coordinates>
-    <panel_attributes>Select seat</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>576</x>
-      <y>477</y>
-      <w>144</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>TTS finds selected seat available
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-
+[TTS ensures seat
+is still available]</panel_attributes>
+    <additional_attributes>60.0;80.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
-    <coordinates>
-      <x>621</x>
-      <y>450</y>
-      <w>27</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>414</x>
-      <y>441</y>
-      <w>189</w>
-      <h>189</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>190.0;10.0;10.0;190.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>630</x>
-      <y>576</y>
-      <w>72</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
     <coordinates>
       <x>612</x>
-      <y>558</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>576</x>
-      <y>585</y>
-      <w>171</w>
+      <y>324</y>
+      <w>108</w>
       <h>27</h>
     </coordinates>
-    <panel_attributes>No
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>Text</id>
+    <id>Relation</id>
     <coordinates>
-      <x>648</x>
-      <y>576</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>Yes
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLObject</id>
-    <coordinates>
-      <x>378</x>
-      <y>612</y>
-      <w>108</w>
+      <x>738</x>
+      <y>441</y>
+      <w>45</w>
       <h>63</h>
     </coordinates>
-    <panel_attributes>Return updated 
-list 
-of seats</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-
+[Yes]</panel_attributes>
+    <additional_attributes>20.0;50.0;20.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLObject</id>
+    <id>Relation</id>
     <coordinates>
-      <x>684</x>
-      <y>603</y>
+      <x>477</x>
+      <y>108</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>477</x>
+      <y>198</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>675</x>
+      <y>414</y>
+      <w>81</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[No]</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>342</y>
+      <w>108</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;100.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>513</x>
+      <y>558</y>
+      <w>135</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[CSA finds matching
+patron information]</panel_attributes>
+    <additional_attributes>70.0;80.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>657</y>
+      <w>45</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+[Yes]</panel_attributes>
+    <additional_attributes>20.0;60.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>585</x>
+      <y>630</y>
       <w>108</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>TTS locks seat</panel_attributes>
+    <panel_attributes>lt=&lt;-
+[No]</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>711</x>
+      <y>657</y>
+      <w>27</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>756</y>
+      <w>54</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>801</x>
+      <y>756</y>
+      <w>18</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>252</x>
-      <y>243</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>261</x>
-      <y>108</y>
-      <w>117</w>
-      <h>153</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;10.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>207</x>
+      <x>477</x>
       <y>261</y>
-      <w>72</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;60.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>540</x>
-      <y>603</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>549</x>
-      <y>684</y>
       <w>18</w>
       <h>18</h>
     </coordinates>
@@ -380,134 +235,186 @@ of seats</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>558</x>
-      <y>576</y>
-      <w>81</w>
-      <h>54</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;40.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>549</x>
-      <y>630</y>
-      <w>27</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>477</x>
-      <y>612</y>
-      <w>81</w>
+      <x>621</x>
+      <y>486</y>
+      <w>99</w>
       <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>855</x>
-      <y>594</y>
-      <w>117</w>
+      <x>378</x>
+      <y>63</y>
+      <w>468</w>
+      <h>747</h>
+    </coordinates>
+    <panel_attributes>valign=top
+halign=left
+Reserve Ticket</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>369</x>
+      <y>54</y>
+      <w>162</w>
       <h>54</h>
     </coordinates>
-    <panel_attributes>Query for patron 
-info</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>900</x>
-      <y>639</y>
-      <w>27</w>
-      <h>126</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>855</x>
-      <y>675</y>
-      <w>144</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>TTS finds patron info
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Text</id>
-    <coordinates>
-      <x>936</x>
-      <y>765</y>
-      <w>171</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>Yes
-style=wordwrap</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>909</x>
-      <y>765</y>
-      <w>72</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>837</x>
-      <y>765</y>
-      <w>81</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;10.0</additional_attributes>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;40.0;140.0;40.0;160.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>891</x>
-      <y>747</y>
+      <x>648</x>
+      <y>414</y>
       <w>36</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Text</id>
+    <id>UMLSpecialState</id>
     <coordinates>
-      <x>846</x>
-      <y>774</y>
-      <w>171</w>
+      <x>468</x>
+      <y>171</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>585</x>
+      <y>171</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>738</x>
+      <y>414</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>558</x>
+      <y>630</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>bg=green
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>540</x>
+      <y>99</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>CSA searches for 
+specific event</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>702</x>
+      <y>171</y>
+      <w>126</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>TTS checks for seat
+availability</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>702</x>
+      <y>324</y>
+      <w>126</w>
       <h>27</h>
     </coordinates>
-    <panel_attributes>No
-style=wordwrap</panel_attributes>
+    <panel_attributes>CSA selects seat</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLObject</id>
+    <id>UMLState</id>
+    <coordinates>
+      <x>495</x>
+      <y>315</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>Return updated 
+list of seats</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>702</x>
+      <y>486</y>
+      <w>108</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>TTS locks seat</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>522</x>
+      <y>477</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>CSA searches
+for patron</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>513</x>
+      <y>711</y>
+      <w>126</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>CSA selects matching
+patron information</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
     <coordinates>
       <x>675</x>
-      <y>810</y>
-      <w>90</w>
+      <y>630</y>
+      <w>108</w>
       <h>36</h>
     </coordinates>
     <panel_attributes>Create New
@@ -515,78 +422,57 @@ Patron</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLObject</id>
+    <id>UMLState</id>
     <coordinates>
-      <x>963</x>
-      <y>801</y>
-      <w>126</w>
-      <h>63</h>
+      <x>666</x>
+      <y>747</y>
+      <w>108</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Associate locked 
 seat with patron</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>Text</id>
+    <id>UMLState</id>
     <coordinates>
-      <x>981</x>
-      <y>603</y>
-      <w>117</w>
+      <x>702</x>
+      <y>252</y>
+      <w>126</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>TTS finds patron invalid
-style=wordwrap</panel_attributes>
+    <panel_attributes>TTS returns
+available seating</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>963</x>
-      <y>612</y>
-      <w>144</w>
-      <h>27</h>
+      <x>747</x>
+      <y>279</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLSpecialState</id>
+    <id>UMLState</id>
     <coordinates>
-      <x>1089</x>
-      <y>612</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>819</x>
-      <y>810</y>
-      <w>36</w>
+      <x>522</x>
+      <y>531</y>
+      <w>108</w>
       <h>36</h>
     </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>828</x>
-      <y>864</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
+    <panel_attributes>TTS searches
+for patron</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>828</x>
-      <y>837</y>
+      <x>567</x>
+      <y>504</y>
       <w>27</w>
       <h>45</h>
     </coordinates>
@@ -596,123 +482,12 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
-      <y>819</y>
-      <w>81</w>
-      <h>27</h>
+      <x>567</x>
+      <y>738</y>
+      <w>117</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLObject</id>
-    <coordinates>
-      <x>468</x>
-      <y>801</y>
-      <w>126</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>Associate locked 
-seat with patron</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>585</x>
-      <y>819</y>
-      <w>108</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>522</x>
-      <y>855</y>
-      <w>27</w>
-      <h>72</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>522</x>
-      <y>909</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>378</x>
-      <y>378</y>
-      <w>36</w>
-      <h>36</h>
-    </coordinates>
-    <panel_attributes>type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>387</x>
-      <y>450</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>198</x>
-      <y>288</y>
-      <w>18</w>
-      <h>18</h>
-    </coordinates>
-    <panel_attributes>type=final</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>387</x>
-      <y>405</y>
-      <w>27</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>9</x>
-      <y>90</y>
-      <w>387</w>
-      <h>324</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>390.0;10.0;10.0;10.0;10.0;340.0;410.0;340.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>783</x>
-      <y>612</y>
-      <w>90</w>
-      <h>27</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>110.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

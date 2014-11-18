@@ -2,17 +2,6 @@
 <diagram program="umlet" version="13.0">
   <zoom_level>10</zoom_level>
   <element>
-    <id>UMLObject</id>
-    <coordinates>
-      <x>340</x>
-      <y>60</y>
-      <w>550</w>
-      <h>620</h>
-    </coordinates>
-    <panel_attributes>valign=top</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
@@ -181,10 +170,10 @@ for the selected venue</panel_attributes>
       <x>580</x>
       <y>330</y>
       <w>80</w>
-      <h>50</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>60.0;30.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;50.0;10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
@@ -281,13 +270,13 @@ for the selected venue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
+      <x>580</x>
       <y>460</y>
-      <w>70</w>
-      <h>60</h>
+      <w>80</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>50.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -299,5 +288,29 @@ for the selected venue</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>350</x>
+      <y>60</y>
+      <w>510</w>
+      <h>620</h>
+    </coordinates>
+    <panel_attributes>valign=top
+halign=left
+Search for Event by Venue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>50</y>
+      <w>250</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;40.0;210.0;40.0;230.0;10.0</additional_attributes>
   </element>
 </diagram>
