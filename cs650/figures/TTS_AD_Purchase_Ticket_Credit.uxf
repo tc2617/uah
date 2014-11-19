@@ -105,7 +105,8 @@ acceptace message</panel_attributes>
       <h>530</h>
     </coordinates>
     <panel_attributes>Purchase Ticket Credit
-valign=top</panel_attributes>
+valign=top
+halign=left</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -153,5 +154,27 @@ type=receiver</panel_attributes>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>140</y>
+      <w>180</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>110</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;40.0</additional_attributes>
   </element>
 </diagram>

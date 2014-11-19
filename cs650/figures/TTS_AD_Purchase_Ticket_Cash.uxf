@@ -4,8 +4,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>390</x>
-      <y>210</y>
+      <x>410</x>
+      <y>250</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>440</x>
-      <y>200</y>
+      <x>460</x>
+      <y>240</y>
       <w>150</w>
       <h>50</h>
     </coordinates>
@@ -27,8 +27,8 @@ payment type</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>210</y>
+      <x>420</x>
+      <y>250</y>
       <w>60</w>
       <h>30</h>
     </coordinates>
@@ -38,8 +38,8 @@ payment type</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>200</y>
+      <x>600</x>
+      <y>240</y>
       <w>60</w>
       <h>40</h>
     </coordinates>
@@ -50,8 +50,8 @@ payment type</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>620</x>
-      <y>200</y>
+      <x>640</x>
+      <y>240</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
@@ -60,22 +60,10 @@ patron payment</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>680</x>
-      <y>280</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>bg=green
-type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>240</y>
+      <x>710</x>
+      <y>280</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -84,82 +72,22 @@ type=decision</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>570</x>
-      <y>290</y>
-      <w>130</w>
-      <h>200</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-[Cash Payment]</panel_attributes>
-    <additional_attributes>110.0;180.0;50.0;180.0;50.0;10.0;110.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>700</x>
-      <y>290</y>
-      <w>150</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-[Non-cash payment]</panel_attributes>
-    <additional_attributes>70.0;80.0;70.0;10.0;20.0;10.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLState</id>
     <coordinates>
-      <x>690</x>
-      <y>370</y>
+      <x>640</x>
+      <y>320</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>TTS Validates
-Patron Payment</panel_attributes>
+payment is sufficient</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLSpecialState</id>
-    <coordinates>
-      <x>680</x>
-      <y>450</y>
-      <w>40</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>bg=green
-type=decision</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>710</x>
-      <y>410</y>
-      <w>80</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-</panel_attributes>
-    <additional_attributes>10.0;60.0;60.0;60.0;60.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>690</x>
-      <y>480</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-</panel_attributes>
-    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>620</x>
-      <y>530</y>
+      <x>640</x>
+      <y>400</y>
       <w>160</w>
       <h>50</h>
     </coordinates>
@@ -170,32 +98,32 @@ acceptace message</panel_attributes>
   <element>
     <id>UMLObject</id>
     <coordinates>
-      <x>380</x>
-      <y>150</y>
-      <w>510</w>
-      <h>500</h>
+      <x>400</x>
+      <y>190</y>
+      <w>430</w>
+      <h>320</h>
     </coordinates>
     <panel_attributes>valign=top
 halign=left
-Purchase Ticket</panel_attributes>
+Purchase Ticket - Cash</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
-      <y>140</y>
-      <w>160</w>
+      <x>390</x>
+      <y>180</y>
+      <w>210</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;40.0;120.0;40.0;140.0;10.0</additional_attributes>
+    <additional_attributes>10.0;40.0;170.0;40.0;190.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>690</x>
-      <y>610</y>
+      <x>710</x>
+      <y>480</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -205,8 +133,20 @@ Purchase Ticket</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>570</y>
+      <x>710</x>
+      <y>440</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>360</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
