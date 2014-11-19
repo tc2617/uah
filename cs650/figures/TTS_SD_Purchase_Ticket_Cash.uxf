@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<diagram program="umlet" version="12.2">
+<diagram program="umlet" version="13.0">
   <zoom_level>10</zoom_level>
   <element>
     <type>com.umlet.element.SequenceDiagram</type>
@@ -11,9 +11,9 @@
     </coordinates>
     <panel_attributes>title: Purchase Ticket - Cash
 _Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
-id1-&gt;&gt;id1:id1,self:Select cash payment type
+id1-&gt;id1:id1,self:Select cash payment type
 id1-&gt;&gt;id2:id1,id2:Submit patron's payment
-id2-&gt;&gt;id2:id2,self:Validate payment is sufficient
+id2-&gt;id2:id2,self:Validate payment is sufficient
 id2-&gt;&gt;id1:id2,id1:Payment accepted</panel_attributes>
     <additional_attributes/>
   </element>

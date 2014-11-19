@@ -10,16 +10,16 @@
       <h>440</h>
     </coordinates>
     <panel_attributes>title: Patron Requests Refund Ticket
-_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_|_:Payment Gateway~id3_
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_|_Payment Gateway:PG~id3_
 id1-&gt;&gt;id2:id1,id2:Request Event Booking
-id2-&gt;&gt;id2:id2:Search Event Bookings
+id2-&gt;id2:id2,self:Search Event Bookings
 id2-&gt;&gt;id1:id2,id1:Return Booking Results
-id1-&gt;&gt;id1:id1:Select Booking
+id1-&gt;id1:id1,self:Select Booking
 id1-&gt;&gt;id2:id1,id2:Send Booking
-id2-&gt;&gt;id2:id2:Verify Booking
-id2-&gt;&gt;id2:id2:Return Seat to Unlocked State
+id2-&gt;id2:id2,self:Verify Booking
+id2-&gt;id2:id2,self:Return Seat to Unlocked State
 id2-&gt;&gt;id3:id2,id3:Send Refund Request
-id3-&gt;&gt;id3:id3:Process Refund Request
+id3-&gt;id3:id3,self:Process Refund Request
 id3-&gt;&gt;id2:id3,id2:Return Refund Confirmation
 id2-&gt;&gt;id1:id2,id1:Return Refund Confirmation</panel_attributes>
     <additional_attributes/>

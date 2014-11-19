@@ -10,7 +10,7 @@
       <h>440</h>
     </coordinates>
     <panel_attributes>title: Refund All Tickets
-_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_|_:Payment Gateway~id3_
+_Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_|_Payment Gateway:PG~id3_
 id1-&gt;&gt;id2:id1,id2:Request Event Booking
 id2-&gt;&gt;id2:id2:Search Event Bookings
 id2-&gt;&gt;id1:id2,id1:Return Booking Results

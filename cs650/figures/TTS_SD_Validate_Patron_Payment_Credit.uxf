@@ -10,7 +10,7 @@
       <h>290</h>
     </coordinates>
     <panel_attributes>title: Validate Patron Payment
-_Theater Ticket System:TTS~id2_|_Payment System:PS~id3_
+_Theater Ticket System:TTS~id2_|_Payment Gateway:PG~id3_
 id2-&gt;&gt;id3:id2,id3:Submit Patron's information
 id3-&gt;&gt;id3:id3,self:Validates payment information
 id3-&gt;&gt;id2:id3,id2:Return validate success

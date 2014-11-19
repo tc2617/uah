@@ -9,13 +9,13 @@
       <w>620</w>
       <h>260</h>
     </coordinates>
-    <panel_attributes>title: Select Unpaid Reservation
+    <panel_attributes>title: Select Reservation
 _Customer Service Agent:CSA~id1_|_Theater Ticket System:TTS~id2_
 id1-&gt;&gt;id2:id1,id2:Search for a patron's reservation
 id2-&gt;id2:id2,self:Search records for patron
 id2-&gt;id2:id2,self:Search for patron's reservations
 id2.&gt;id1:id1,id2:Search results
-id1-&gt;&gt;id1:id1,self:Select unpaid reservation</panel_attributes>
+id1-&gt;&gt;id1:id1,self:Select reservation</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
