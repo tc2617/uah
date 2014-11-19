@@ -1,0 +1,11 @@
+Search for Event by Venue
+-------------------------
+No extension points have been identified for this use case.
+
+Patron Requested Refund Ticket
+------------------------------
+Search for Event Booking
+
+Refund All Tickets for an Event
+-------------------------------
+No extension points have been identified for this use case.
